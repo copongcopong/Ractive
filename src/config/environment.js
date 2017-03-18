@@ -1,6 +1,7 @@
 /*global console, navigator */
 
-const win = typeof window !== 'undefined' ? window : null;
+//const win = typeof window !== 'undefined' ? window : null;
+win = null;
 const doc = win ? document : null;
 
 const isClient = !!doc;
